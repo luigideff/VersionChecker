@@ -1,5 +1,4 @@
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.AssemblyReference.cache
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.Form1.resources
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.Properties.Resources.resources
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.GenerateResource.cache
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.CoreCompileInputs.cache
@@ -8,3 +7,4 @@ C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\Veri
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\VerificaVersaoDlls.pdb
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.exe
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.pdb
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.VersionChecker.resources

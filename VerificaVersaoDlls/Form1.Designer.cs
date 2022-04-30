@@ -1,7 +1,7 @@
 ﻿
 namespace VerificaVersaoDlls
 {
-    partial class Form1
+    partial class VersionChecker
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,11 @@ namespace VerificaVersaoDlls
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FilePath1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.versao = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Versao_Txt = new System.Windows.Forms.Label();
+            this.SaveSettings_Btn = new System.Windows.Forms.Button();
+            this.CheckVersion_Btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -45,12 +46,12 @@ namespace VerificaVersaoDlls
             this.label1.TabIndex = 0;
             this.label1.Text = "Cliente 1";
             // 
-            // textBox1
+            // FilePath1
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(610, 22);
-            this.textBox1.TabIndex = 1;
+            this.FilePath1.Location = new System.Drawing.Point(83, 70);
+            this.FilePath1.Name = "FilePath1";
+            this.FilePath1.Size = new System.Drawing.Size(610, 22);
+            this.FilePath1.TabIndex = 1;
             // 
             // label2
             // 
@@ -61,36 +62,48 @@ namespace VerificaVersaoDlls
             this.label2.TabIndex = 0;
             this.label2.Text = "Versão:";
             // 
-            // versao
+            // Versao_Txt
             // 
-            this.versao.AutoSize = true;
-            this.versao.Location = new System.Drawing.Point(247, 33);
-            this.versao.Name = "versao";
-            this.versao.Size = new System.Drawing.Size(0, 17);
-            this.versao.TabIndex = 0;
+            this.Versao_Txt.AutoSize = true;
+            this.Versao_Txt.Location = new System.Drawing.Point(247, 33);
+            this.Versao_Txt.Name = "Versao_Txt";
+            this.Versao_Txt.Size = new System.Drawing.Size(0, 17);
+            this.Versao_Txt.TabIndex = 0;
             // 
-            // button1
+            // SaveSettings_Btn
             // 
-            this.button1.Location = new System.Drawing.Point(83, 92);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 39);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Salvar Caminho";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.SaveSettings_Btn.Location = new System.Drawing.Point(529, 375);
+            this.SaveSettings_Btn.Name = "SaveSettings_Btn";
+            this.SaveSettings_Btn.Size = new System.Drawing.Size(164, 39);
+            this.SaveSettings_Btn.TabIndex = 2;
+            this.SaveSettings_Btn.Text = "Salvar Configurações";
+            this.SaveSettings_Btn.UseVisualStyleBackColor = true;
+            this.SaveSettings_Btn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // CheckVersion_Btn
+            // 
+            this.CheckVersion_Btn.Location = new System.Drawing.Point(83, 375);
+            this.CheckVersion_Btn.Name = "CheckVersion_Btn";
+            this.CheckVersion_Btn.Size = new System.Drawing.Size(164, 39);
+            this.CheckVersion_Btn.TabIndex = 2;
+            this.CheckVersion_Btn.Text = "Verificar Versão";
+            this.CheckVersion_Btn.UseVisualStyleBackColor = true;
+            this.CheckVersion_Btn.Click += new System.EventHandler(this.CheckVersion_Click);
+            // 
+            // VersionChecker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.versao);
+            this.Controls.Add(this.CheckVersion_Btn);
+            this.Controls.Add(this.SaveSettings_Btn);
+            this.Controls.Add(this.FilePath1);
+            this.Controls.Add(this.Versao_Txt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "VersionChecker";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Version Checker";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -100,10 +113,11 @@ namespace VerificaVersaoDlls
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FilePath1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label versao;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Versao_Txt;
+        private System.Windows.Forms.Button SaveSettings_Btn;
+        private System.Windows.Forms.Button CheckVersion_Btn;
     }
 }
 
