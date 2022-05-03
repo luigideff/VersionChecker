@@ -36,7 +36,7 @@ namespace VerificaVersaoDlls
             GetSettings();
             lbl_Versao1.Text = "";
             lbl_DataMod1.Text = "";
-           
+            ActiveControl = btn_CheckVersion;     
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,8 +68,6 @@ namespace VerificaVersaoDlls
         }
 
         
-
-        public int LabelEdit { get; set; }
         public void label1_Click(object sender, EventArgs e)
         {
             AlteraNomeCliente form2 = new AlteraNomeCliente();                     
@@ -77,7 +75,12 @@ namespace VerificaVersaoDlls
             lbl_Cliente1.Text = form2.Text;
         }
 
-
-       
+        private void folder1_btn_Click(object sender, EventArgs e)
+        {
+            
+            OpenFileDialog selectfile = new OpenFileDialog();
+            selectfile.ShowDialog();
+            FilePath1.Text = selectfile.FileName;
+        }
     }
 }

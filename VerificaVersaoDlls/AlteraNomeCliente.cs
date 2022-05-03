@@ -28,5 +28,12 @@ namespace VerificaVersaoDlls
           
         }
 
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_SalvarNomeCliente_Click(this, new EventArgs());     
+            }
+        }
     }
 }

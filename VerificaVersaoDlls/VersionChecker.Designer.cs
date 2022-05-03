@@ -34,7 +34,7 @@ namespace VerificaVersaoDlls
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_Versao1 = new System.Windows.Forms.Label();
             this.SaveSettings_Btn = new System.Windows.Forms.Button();
-            this.CheckVersion_Btn = new System.Windows.Forms.Button();
+            this.btn_CheckVersion = new System.Windows.Forms.Button();
             this.folder1_btn = new System.Windows.Forms.Button();
             this.lbl_DataMod1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -87,15 +87,15 @@ namespace VerificaVersaoDlls
             this.SaveSettings_Btn.UseVisualStyleBackColor = true;
             this.SaveSettings_Btn.Click += new System.EventHandler(this.button1_Click);
             // 
-            // CheckVersion_Btn
+            // btn_CheckVersion
             // 
-            this.CheckVersion_Btn.Location = new System.Drawing.Point(83, 375);
-            this.CheckVersion_Btn.Name = "CheckVersion_Btn";
-            this.CheckVersion_Btn.Size = new System.Drawing.Size(164, 39);
-            this.CheckVersion_Btn.TabIndex = 2;
-            this.CheckVersion_Btn.Text = "Verificar Versão";
-            this.CheckVersion_Btn.UseVisualStyleBackColor = true;
-            this.CheckVersion_Btn.Click += new System.EventHandler(this.CheckVersion_Click);
+            this.btn_CheckVersion.Location = new System.Drawing.Point(83, 375);
+            this.btn_CheckVersion.Name = "btn_CheckVersion";
+            this.btn_CheckVersion.Size = new System.Drawing.Size(164, 39);
+            this.btn_CheckVersion.TabIndex = 2;
+            this.btn_CheckVersion.Text = "Verificar Versão";
+            this.btn_CheckVersion.UseVisualStyleBackColor = true;
+            this.btn_CheckVersion.Click += new System.EventHandler(this.CheckVersion_Click);
             // 
             // folder1_btn
             // 
@@ -105,6 +105,7 @@ namespace VerificaVersaoDlls
             this.folder1_btn.TabIndex = 3;
             this.folder1_btn.Text = "Selecionar Pasta";
             this.folder1_btn.UseVisualStyleBackColor = true;
+            this.folder1_btn.Click += new System.EventHandler(this.folder1_btn_Click);
             // 
             // lbl_DataMod1
             // 
@@ -132,7 +133,7 @@ namespace VerificaVersaoDlls
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_DataMod1);
             this.Controls.Add(this.folder1_btn);
-            this.Controls.Add(this.CheckVersion_Btn);
+            this.Controls.Add(this.btn_CheckVersion);
             this.Controls.Add(this.SaveSettings_Btn);
             this.Controls.Add(this.FilePath1);
             this.Controls.Add(this.lbl_Versao1);
@@ -154,7 +155,7 @@ namespace VerificaVersaoDlls
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_Versao1;
         private System.Windows.Forms.Button SaveSettings_Btn;
-        private System.Windows.Forms.Button CheckVersion_Btn;
+        private System.Windows.Forms.Button btn_CheckVersion;
         private System.Windows.Forms.Button folder1_btn;
         private System.Windows.Forms.Label lbl_DataMod1;
         private System.Windows.Forms.Label label1;

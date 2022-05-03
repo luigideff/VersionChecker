@@ -34,5 +34,17 @@ namespace VerificaVersaoDlls.Properties {
                 this["DllPath1"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string lbl_Cliente1 {
+            get {
+                return ((string)(this["lbl_Cliente1"]));
+            }
+            set {
+                this["lbl_Cliente1"] = value;
+            }
+        }
     }
 }
