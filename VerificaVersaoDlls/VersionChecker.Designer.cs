@@ -29,46 +29,53 @@ namespace VerificaVersaoDlls
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_Cliente1 = new System.Windows.Forms.Label();
             this.FilePath1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.Versao_Txt = new System.Windows.Forms.Label();
+            this.lbl_Versao1 = new System.Windows.Forms.Label();
             this.SaveSettings_Btn = new System.Windows.Forms.Button();
             this.CheckVersion_Btn = new System.Windows.Forms.Button();
+            this.folder1_btn = new System.Windows.Forms.Button();
+            this.lbl_DataMod1 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_Cliente1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cliente 1";
+            this.lbl_Cliente1.AutoSize = true;
+            this.lbl_Cliente1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_Cliente1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cliente1.Location = new System.Drawing.Point(179, 33);
+            this.lbl_Cliente1.Name = "lbl_Cliente1";
+            this.lbl_Cliente1.Size = new System.Drawing.Size(72, 17);
+            this.lbl_Cliente1.TabIndex = 0;
+            this.lbl_Cliente1.Text = "Cliente 1";
+            this.lbl_Cliente1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FilePath1
             // 
-            this.FilePath1.Location = new System.Drawing.Point(83, 70);
+            this.FilePath1.Location = new System.Drawing.Point(182, 67);
             this.FilePath1.Name = "FilePath1";
-            this.FilePath1.Size = new System.Drawing.Size(610, 22);
+            this.FilePath1.Size = new System.Drawing.Size(590, 22);
             this.FilePath1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(184, 33);
+            this.label2.Location = new System.Drawing.Point(393, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Versão:";
             // 
-            // Versao_Txt
+            // lbl_Versao1
             // 
-            this.Versao_Txt.AutoSize = true;
-            this.Versao_Txt.Location = new System.Drawing.Point(247, 33);
-            this.Versao_Txt.Name = "Versao_Txt";
-            this.Versao_Txt.Size = new System.Drawing.Size(0, 17);
-            this.Versao_Txt.TabIndex = 0;
+            this.lbl_Versao1.AutoSize = true;
+            this.lbl_Versao1.Location = new System.Drawing.Point(450, 33);
+            this.lbl_Versao1.Name = "lbl_Versao1";
+            this.lbl_Versao1.Size = new System.Drawing.Size(37, 17);
+            this.lbl_Versao1.TabIndex = 0;
+            this.lbl_Versao1.Text = "Num";
             // 
             // SaveSettings_Btn
             // 
@@ -90,17 +97,49 @@ namespace VerificaVersaoDlls
             this.CheckVersion_Btn.UseVisualStyleBackColor = true;
             this.CheckVersion_Btn.Click += new System.EventHandler(this.CheckVersion_Click);
             // 
+            // folder1_btn
+            // 
+            this.folder1_btn.Location = new System.Drawing.Point(19, 62);
+            this.folder1_btn.Name = "folder1_btn";
+            this.folder1_btn.Size = new System.Drawing.Size(144, 33);
+            this.folder1_btn.TabIndex = 3;
+            this.folder1_btn.Text = "Selecionar Pasta";
+            this.folder1_btn.UseVisualStyleBackColor = true;
+            // 
+            // lbl_DataMod1
+            // 
+            this.lbl_DataMod1.AutoSize = true;
+            this.lbl_DataMod1.Location = new System.Drawing.Point(636, 33);
+            this.lbl_DataMod1.Name = "lbl_DataMod1";
+            this.lbl_DataMod1.Size = new System.Drawing.Size(38, 17);
+            this.lbl_DataMod1.TabIndex = 4;
+            this.lbl_DataMod1.Text = "Data";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(549, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 17);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Modificação:";
+            // 
             // VersionChecker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_DataMod1);
+            this.Controls.Add(this.folder1_btn);
             this.Controls.Add(this.CheckVersion_Btn);
             this.Controls.Add(this.SaveSettings_Btn);
             this.Controls.Add(this.FilePath1);
-            this.Controls.Add(this.Versao_Txt);
+            this.Controls.Add(this.lbl_Versao1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_Cliente1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "VersionChecker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Version Checker";
@@ -111,13 +150,15 @@ namespace VerificaVersaoDlls
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox FilePath1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label Versao_Txt;
+        private System.Windows.Forms.Label lbl_Versao1;
         private System.Windows.Forms.Button SaveSettings_Btn;
         private System.Windows.Forms.Button CheckVersion_Btn;
+        private System.Windows.Forms.Button folder1_btn;
+        private System.Windows.Forms.Label lbl_DataMod1;
+        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label lbl_Cliente1;
     }
 }
 

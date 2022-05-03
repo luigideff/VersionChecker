@@ -1,10 +1,12 @@
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.AssemblyReference.cache
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.Properties.Resources.resources
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.GenerateResource.cache
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.CoreCompileInputs.cache
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\versionchecker.json
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\VerificaVersaoDlls.exe.config
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\VerificaVersaoDlls.exe
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\bin\Debug\VerificaVersaoDlls.pdb
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.AlteraNomeCliente.resources
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.VersionChecker.resources
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.Properties.Resources.resources
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.GenerateResource.cache
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.CoreCompileInputs.cache
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.exe
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.pdb
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.VersionChecker.resources
+C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.AssemblyReference.cache

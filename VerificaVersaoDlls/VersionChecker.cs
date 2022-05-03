@@ -14,11 +14,13 @@ namespace VerificaVersaoDlls
 {
     public partial class VersionChecker : Form
     {
+
+       
         public VersionChecker()
         {
             InitializeComponent();
         }
-
+           
         public void GetSettings()
         {
             FilePath1.Text = Properties.Settings.Default.DllPath1;
@@ -32,22 +34,9 @@ namespace VerificaVersaoDlls
         private void Form1_Load(object sender, EventArgs e)
         {
             GetSettings();
-            
-            if (String.IsNullOrEmpty(FilePath1.Text) != true)
-            {
-                string fileName = FilePath1.Text;
-                try
-                {
-
-                    FileVersionInfo FileVersion = FileVersionInfo.GetVersionInfo(fileName);
-                    Versao_Txt.Text = Convert.ToString(FileVersion.ProductVersion);
-
-                }
-                catch (IOException ioe)
-                {
-                    MessageBox.Show("O caminho especificado não aponta para um arquivo válido.");
-                }
-            }
+            lbl_Versao1.Text = "";
+            lbl_DataMod1.Text = "";
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -61,8 +50,11 @@ namespace VerificaVersaoDlls
             try
             {
                 
-                    FileVersionInfo FileVersion = FileVersionInfo.GetVersionInfo(fileName);
-                    Versao_Txt.Text = Convert.ToString(FileVersion.ProductVersion);
+                FileVersionInfo FileVersion = FileVersionInfo.GetVersionInfo(fileName);
+                lbl_Versao1.Text = Convert.ToString(FileVersion.ProductVersion);
+                DateTime ModDate = File.GetLastWriteTime(fileName);
+                lbl_DataMod1.Text = Convert.ToString(ModDate);
+               
                
             }
             catch (IOException ioe)
@@ -74,6 +66,18 @@ namespace VerificaVersaoDlls
                 MessageBox.Show("Não foi especificado o caminho do arquivo");
             }
         }
+
         
+
+        public int LabelEdit { get; set; }
+        public void label1_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();                     
+            form2.ShowDialog();
+            lbl_Cliente1.Text = form2.Text;
+        }
+
+
+       
     }
 }
