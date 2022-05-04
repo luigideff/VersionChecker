@@ -29,6 +29,7 @@ namespace VerificaVersaoDlls
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VersionChecker));
             this.lbl_Cliente1 = new System.Windows.Forms.Label();
             this.FilePath1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -377,6 +378,7 @@ namespace VerificaVersaoDlls
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lbl_Cliente1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "VersionChecker";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -388,7 +390,6 @@ namespace VerificaVersaoDlls
         }
 
         #endregion
-        private System.Windows.Forms.TextBox FilePath1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_Versao1;
         private System.Windows.Forms.Button SaveSettings_Btn;
@@ -400,7 +401,6 @@ namespace VerificaVersaoDlls
         public System.Windows.Forms.Label lbl_Cliente2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbl_Versao2;
-        private System.Windows.Forms.TextBox FilePath2;
         private System.Windows.Forms.Button btn_Folder2;
         private System.Windows.Forms.Label lbl_DataMod2;
         private System.Windows.Forms.Label label7;
@@ -418,6 +418,8 @@ namespace VerificaVersaoDlls
         private System.Windows.Forms.Button btn_Folder4;
         private System.Windows.Forms.Label lbl_DataMod4;
         private System.Windows.Forms.Label label17;
+        public System.Windows.Forms.TextBox FilePath1;
+        public System.Windows.Forms.TextBox FilePath2;
     }
 }
 

@@ -36,14 +36,14 @@ namespace VerificaVersaoDlls
         public void SaveSettings()
         {
             Properties.Settings.Default.FilePath1 = FilePath1.Text;
-            Properties.Settings.Default.FilePath1 = FilePath2.Text;
-            Properties.Settings.Default.FilePath1 = FilePath3.Text;
-            Properties.Settings.Default.FilePath1 = FilePath4.Text;
+            Properties.Settings.Default.FilePath2 = FilePath2.Text;
+            Properties.Settings.Default.FilePath3 = FilePath3.Text;
+            Properties.Settings.Default.FilePath4 = FilePath4.Text;
             Properties.Settings.Default.lbl_Cliente1 = lbl_Cliente1.Text;
             Properties.Settings.Default.lbl_Cliente2 = lbl_Cliente2.Text;
             Properties.Settings.Default.lbl_Cliente3 = lbl_Cliente3.Text;
             Properties.Settings.Default.lbl_Cliente4 = lbl_Cliente4.Text;
-            Properties.Settings.Default.Save();
+            Properties.Settings.Default.Save();            
         }
         private void Form1_Load(object sender, EventArgs e)
         {
