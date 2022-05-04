@@ -26,24 +26,96 @@ namespace VerificaVersaoDlls.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string DllPath1 {
+        public string FilePath1 {
             get {
-                return ((string)(this["DllPath1"]));
+                return ((string)(this["FilePath1"]));
             }
             set {
-                this["DllPath1"] = value;
+                this["FilePath1"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Cliente 1")]
         public string lbl_Cliente1 {
             get {
                 return ((string)(this["lbl_Cliente1"]));
             }
             set {
                 this["lbl_Cliente1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FilePath2 {
+            get {
+                return ((string)(this["FilePath2"]));
+            }
+            set {
+                this["FilePath2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FilePath3 {
+            get {
+                return ((string)(this["FilePath3"]));
+            }
+            set {
+                this["FilePath3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string FilePath4 {
+            get {
+                return ((string)(this["FilePath4"]));
+            }
+            set {
+                this["FilePath4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Cliente 2")]
+        public string lbl_Cliente2 {
+            get {
+                return ((string)(this["lbl_Cliente2"]));
+            }
+            set {
+                this["lbl_Cliente2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Cliente 3")]
+        public string lbl_Cliente3 {
+            get {
+                return ((string)(this["lbl_Cliente3"]));
+            }
+            set {
+                this["lbl_Cliente3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Cliente 4")]
+        public string lbl_Cliente4 {
+            get {
+                return ((string)(this["lbl_Cliente4"]));
+            }
+            set {
+                this["lbl_Cliente4"] = value;
             }
         }
     }

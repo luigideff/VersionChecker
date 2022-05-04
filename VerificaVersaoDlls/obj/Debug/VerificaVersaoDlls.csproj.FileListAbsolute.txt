@@ -9,4 +9,3 @@ C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\Veri
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.CoreCompileInputs.cache
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.exe
 C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.pdb
-C:\Users\Luigi\source\repos\VerificaVersaoDlls\VerificaVersaoDlls\obj\Debug\VerificaVersaoDlls.csproj.AssemblyReference.cache

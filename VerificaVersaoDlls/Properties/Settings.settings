@@ -2,11 +2,29 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VerificaVersaoDlls.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="DllPath1" Type="System.String" Scope="User">
+    <Setting Name="FilePath1" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="lbl_Cliente1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 1</Value>
+    </Setting>
+    <Setting Name="FilePath2" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath4" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="lbl_Cliente2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 2</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 3</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 4</Value>
     </Setting>
   </Settings>
 </SettingsFile>
