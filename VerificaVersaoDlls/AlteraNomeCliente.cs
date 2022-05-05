@@ -18,7 +18,7 @@ namespace VerificaVersaoDlls
             
         }
 
-        public string Text { get; set; }
+        public string Text { get; set; } = "ok";
 
 
         public void btn_SalvarNomeCliente_Click(object sender, EventArgs e)

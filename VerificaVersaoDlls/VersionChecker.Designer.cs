@@ -84,7 +84,7 @@ namespace VerificaVersaoDlls
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(393, 33);
+            this.label2.Location = new System.Drawing.Point(357, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 0;
@@ -93,7 +93,7 @@ namespace VerificaVersaoDlls
             // lbl_Versao1
             // 
             this.lbl_Versao1.AutoSize = true;
-            this.lbl_Versao1.Location = new System.Drawing.Point(450, 33);
+            this.lbl_Versao1.Location = new System.Drawing.Point(414, 33);
             this.lbl_Versao1.Name = "lbl_Versao1";
             this.lbl_Versao1.Size = new System.Drawing.Size(37, 17);
             this.lbl_Versao1.TabIndex = 0;
@@ -162,7 +162,7 @@ namespace VerificaVersaoDlls
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(393, 108);
+            this.label4.Location = new System.Drawing.Point(357, 108);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 17);
             this.label4.TabIndex = 0;
@@ -171,7 +171,7 @@ namespace VerificaVersaoDlls
             // lbl_Versao2
             // 
             this.lbl_Versao2.AutoSize = true;
-            this.lbl_Versao2.Location = new System.Drawing.Point(450, 108);
+            this.lbl_Versao2.Location = new System.Drawing.Point(414, 108);
             this.lbl_Versao2.Name = "lbl_Versao2";
             this.lbl_Versao2.Size = new System.Drawing.Size(37, 17);
             this.lbl_Versao2.TabIndex = 0;
@@ -227,7 +227,7 @@ namespace VerificaVersaoDlls
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(393, 179);
+            this.label9.Location = new System.Drawing.Point(357, 179);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 17);
             this.label9.TabIndex = 0;
@@ -236,7 +236,7 @@ namespace VerificaVersaoDlls
             // lbl_Versao3
             // 
             this.lbl_Versao3.AutoSize = true;
-            this.lbl_Versao3.Location = new System.Drawing.Point(450, 179);
+            this.lbl_Versao3.Location = new System.Drawing.Point(414, 179);
             this.lbl_Versao3.Name = "lbl_Versao3";
             this.lbl_Versao3.Size = new System.Drawing.Size(37, 17);
             this.lbl_Versao3.TabIndex = 0;
@@ -292,7 +292,7 @@ namespace VerificaVersaoDlls
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(393, 254);
+            this.label14.Location = new System.Drawing.Point(357, 254);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(57, 17);
             this.label14.TabIndex = 0;
@@ -301,7 +301,7 @@ namespace VerificaVersaoDlls
             // lbl_Versao4
             // 
             this.lbl_Versao4.AutoSize = true;
-            this.lbl_Versao4.Location = new System.Drawing.Point(450, 254);
+            this.lbl_Versao4.Location = new System.Drawing.Point(414, 254);
             this.lbl_Versao4.Name = "lbl_Versao4";
             this.lbl_Versao4.Size = new System.Drawing.Size(37, 17);
             this.lbl_Versao4.TabIndex = 0;

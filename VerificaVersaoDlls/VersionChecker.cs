@@ -59,38 +59,79 @@ namespace VerificaVersaoDlls
             ActiveControl = btn_CheckVersion;     
         }
 
+        public string FolderDialog(string CurrentPath)
+        {
+            FolderBrowserDialog SelectFolder = new FolderBrowserDialog();
+            SelectFolder.ShowDialog();
+            string NewPath = SelectFolder.SelectedPath;
+            string NewPathPlusFile = NewPath + @"\bin\HBConselhos.dll";
+            if (String.IsNullOrEmpty(NewPath) == false)
+            {
+                return NewPathPlusFile;
+            }
+            else
+            {
+                return CurrentPath;
+            }            
+        }
+
+        public string GetFileVersion(string fileName, string clientName)
+        {
+            try
+            {
+                FileVersionInfo fileVersionInfo = FileVersionInfo.GetVersionInfo(fileName);
+                string FileVersion = Convert.ToString(fileVersionInfo.FileVersion);
+                return FileVersion;
+            }
+
+            catch (IOException ioe)
+            {
+                MessageBox.Show("O caminho especificado em " + clientName + " não aponta para um arquivo válido.");
+                return String.Empty;
+            }
+            catch (ArgumentException ae)
+            {
+                MessageBox.Show("Não foi especificado o caminho do arquivo para o " + clientName);
+                return String.Empty;
+            }
+            
+        }
+
+        public string GetFileModDate(string fileName, string clientName)
+        {
+            try
+            {               
+                string ModDate = Convert.ToString(File.GetLastWriteTime(fileName));
+                return ModDate;
+            }
+            catch (IOException ioe)
+            {                
+                return String.Empty;
+            }
+            catch (ArgumentException ae)
+            {                
+                return String.Empty;
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             SaveSettings();
         }
 
+        
         private void CheckVersion_Click(object sender, EventArgs e)
         {
-            string fileName1 = FilePath1.Text;
-            string fileName2 = FilePath2.Text;
-            try
-            {
-                
-                FileVersionInfo FileVersion = FileVersionInfo.GetVersionInfo(fileName1);
-                lbl_Versao1.Text = Convert.ToString(FileVersion.ProductVersion);
-                DateTime ModDate = File.GetLastWriteTime(fileName1);
-                lbl_DataMod1.Text = Convert.ToString(ModDate);
+            lbl_Versao1.Text = GetFileVersion(FilePath1.Text, lbl_Cliente1.Text);
+            lbl_DataMod1.Text = GetFileModDate(FilePath1.Text, lbl_Cliente1.Text);
 
-                FileVersionInfo FileVersion2 = FileVersionInfo.GetVersionInfo(fileName2);
-                lbl_Versao2.Text = Convert.ToString(FileVersion2.ProductVersion);
-                DateTime ModDate2 = File.GetLastWriteTime(fileName2);
-                lbl_DataMod2.Text = Convert.ToString(ModDate2);
+            lbl_Versao2.Text = GetFileVersion(FilePath2.Text, lbl_Cliente2.Text);
+            lbl_DataMod2.Text = GetFileModDate(FilePath2.Text, lbl_Cliente2.Text);
 
+            lbl_Versao3.Text = GetFileVersion(FilePath3.Text, lbl_Cliente3.Text);
+            lbl_DataMod3.Text = GetFileModDate(FilePath3.Text, lbl_Cliente3.Text);
 
-            }
-            catch (IOException ioe)
-            {
-                MessageBox.Show("O caminho especificado não aponta para um arquivo válido.");
-            }
-            catch(ArgumentException ae)
-            {
-                MessageBox.Show("Não foi especificado o caminho do arquivo");
-            }
+            lbl_Versao4.Text = GetFileVersion(FilePath4.Text, lbl_Cliente4.Text);
+            lbl_DataMod4.Text = GetFileModDate(FilePath4.Text, lbl_Cliente4.Text);
         }
 
         
@@ -122,32 +163,26 @@ namespace VerificaVersaoDlls
 
         private void btn_Folder1_Click(object sender, EventArgs e)
         {
-            
-            OpenFileDialog selectfile = new OpenFileDialog();
-            selectfile.ShowDialog();
-            FilePath1.Text = selectfile.FileName;
+            string CurrentPath = FilePath1.Text;           
+            FilePath1.Text = FolderDialog(CurrentPath);
         }
 
         private void btn_Folder2_Click(object sender, EventArgs e)
         {
-
-            OpenFileDialog selectfile = new OpenFileDialog();
-            selectfile.ShowDialog();
-            FilePath2.Text = selectfile.FileName;
+            string CurrentPath = FilePath2.Text;
+            FilePath2.Text = FolderDialog(CurrentPath);
         }
 
         private void btn_Folder3_Click(object sender, EventArgs e)
         {
-            OpenFileDialog selectfile = new OpenFileDialog();
-            selectfile.ShowDialog();
-            FilePath3.Text = selectfile.FileName;
+            string CurrentPath = FilePath3.Text;
+            FilePath3.Text = FolderDialog(CurrentPath);
         }
 
         private void btn_Folder4_Click(object sender, EventArgs e)
         {
-            OpenFileDialog selectfile = new OpenFileDialog();
-            selectfile.ShowDialog();
-            FilePath4.Text = selectfile.FileName;
+            string CurrentPath = FilePath4.Text;
+            FilePath4.Text = FolderDialog(CurrentPath);
         }
     }
 }
