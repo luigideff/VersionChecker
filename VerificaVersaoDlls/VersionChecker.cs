@@ -161,6 +161,105 @@ namespace VerificaVersaoDlls
             lbl_Cliente4.Text = form2.Text;
         }
 
+        public void lbl_Cliente5_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente5.Text = form2.Text;
+        }
+
+        public void lbl_Cliente6_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente6.Text = form2.Text;
+        }
+        public void lbl_Cliente7_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente7.Text = form2.Text;
+        }
+
+        public void lbl_Cliente8_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente8.Text = form2.Text;
+        }
+        public void lbl_Cliente9_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente9.Text = form2.Text;
+        }
+        public void lbl_Cliente10_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente10.Text = form2.Text;
+        }
+        public void lbl_Cliente11_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente11.Text = form2.Text;
+        }
+        public void lbl_Cliente12_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente13.Text = form2.Text;
+        }
+        public void lbl_Cliente13_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente13.Text = form2.Text;
+        }
+        public void lbl_Cliente14_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente14.Text = form2.Text;
+        }
+        public void lbl_Cliente15_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente15.Text = form2.Text;
+        }
+        public void lbl_Cliente16_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente16.Text = form2.Text;
+        }
+        public void lbl_Cliente17_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente17.Text = form2.Text;
+        }
+        public void lbl_Cliente18_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente18.Text = form2.Text;
+        }
+        public void lbl_Cliente19_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente19.Text = form2.Text;
+        }
+        public void lbl_Cliente20_Click(object sender, EventArgs e)
+        {
+            AlteraNomeCliente form2 = new AlteraNomeCliente();
+            form2.ShowDialog();
+            lbl_Cliente20.Text = form2.Text;
+        }
+
         private void btn_Folder1_Click(object sender, EventArgs e)
         {
             string CurrentPath = FilePath1.Text;           

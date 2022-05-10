@@ -23,9 +23,16 @@ namespace VerificaVersaoDlls
 
         public void btn_SalvarNomeCliente_Click(object sender, EventArgs e)
         {
-            Text = textBox1.Text;
-            Close();       
-          
+            if (String.IsNullOrEmpty(textBox1.Text) != true)
+            {
+                Text = textBox1.Text;
+                Close();
+            }
+            else
+            {
+                MessageBox.Show("O nome não pode ser vazio.");
+            }
+
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
