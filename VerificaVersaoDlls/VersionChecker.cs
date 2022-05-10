@@ -27,10 +27,42 @@ namespace VerificaVersaoDlls
             FilePath2.Text = Properties.Settings.Default.FilePath2;
             FilePath3.Text = Properties.Settings.Default.FilePath3;
             FilePath4.Text = Properties.Settings.Default.FilePath4;
+            FilePath5.Text = Properties.Settings.Default.FilePath5;
+            FilePath6.Text = Properties.Settings.Default.FilePath6;
+            FilePath7.Text = Properties.Settings.Default.FilePath7;
+            FilePath8.Text = Properties.Settings.Default.FilePath8;
+            FilePath9.Text = Properties.Settings.Default.FilePath9;
+            FilePath10.Text = Properties.Settings.Default.FilePath10;
+            FilePath11.Text = Properties.Settings.Default.FilePath11;
+            FilePath12.Text = Properties.Settings.Default.FilePath12;
+            FilePath13.Text = Properties.Settings.Default.FilePath13;
+            FilePath14.Text = Properties.Settings.Default.FilePath14;
+            FilePath15.Text = Properties.Settings.Default.FilePath15;
+            FilePath16.Text = Properties.Settings.Default.FilePath16;
+            FilePath17.Text = Properties.Settings.Default.FilePath17;
+            FilePath18.Text = Properties.Settings.Default.FilePath18;
+            FilePath19.Text = Properties.Settings.Default.FilePath19;
+            FilePath20.Text = Properties.Settings.Default.FilePath20;
             lbl_Cliente1.Text = Properties.Settings.Default.lbl_Cliente1;
             lbl_Cliente2.Text = Properties.Settings.Default.lbl_Cliente2;
             lbl_Cliente3.Text = Properties.Settings.Default.lbl_Cliente3;
             lbl_Cliente4.Text = Properties.Settings.Default.lbl_Cliente4;
+            lbl_Cliente5.Text = Properties.Settings.Default.lbl_Cliente5;
+            lbl_Cliente6.Text = Properties.Settings.Default.lbl_Cliente6;
+            lbl_Cliente7.Text = Properties.Settings.Default.lbl_Cliente7;
+            lbl_Cliente8.Text = Properties.Settings.Default.lbl_Cliente8;
+            lbl_Cliente9.Text = Properties.Settings.Default.lbl_Cliente9;
+            lbl_Cliente10.Text = Properties.Settings.Default.lbl_Cliente10;
+            lbl_Cliente11.Text = Properties.Settings.Default.lbl_Cliente11;
+            lbl_Cliente12.Text = Properties.Settings.Default.lbl_Cliente12;
+            lbl_Cliente13.Text = Properties.Settings.Default.lbl_Cliente13;
+            lbl_Cliente14.Text = Properties.Settings.Default.lbl_Cliente14;
+            lbl_Cliente15.Text = Properties.Settings.Default.lbl_Cliente15;
+            lbl_Cliente16.Text = Properties.Settings.Default.lbl_Cliente16;
+            lbl_Cliente17.Text = Properties.Settings.Default.lbl_Cliente17;
+            lbl_Cliente18.Text = Properties.Settings.Default.lbl_Cliente18;
+            lbl_Cliente18.Text = Properties.Settings.Default.lbl_Cliente19;
+            lbl_Cliente20.Text = Properties.Settings.Default.lbl_Cliente20;
         }
 
         public void SaveSettings()
@@ -39,10 +71,42 @@ namespace VerificaVersaoDlls
             Properties.Settings.Default.FilePath2 = FilePath2.Text;
             Properties.Settings.Default.FilePath3 = FilePath3.Text;
             Properties.Settings.Default.FilePath4 = FilePath4.Text;
+            Properties.Settings.Default.FilePath5 = FilePath5.Text;
+            Properties.Settings.Default.FilePath6 = FilePath6.Text;
+            Properties.Settings.Default.FilePath7 = FilePath7.Text;
+            Properties.Settings.Default.FilePath8 = FilePath8.Text;
+            Properties.Settings.Default.FilePath9 = FilePath9.Text;
+            Properties.Settings.Default.FilePath10 = FilePath10.Text;
+            Properties.Settings.Default.FilePath11 = FilePath11.Text;
+            Properties.Settings.Default.FilePath12 = FilePath12.Text;
+            Properties.Settings.Default.FilePath13 = FilePath13.Text;
+            Properties.Settings.Default.FilePath14 = FilePath14.Text;
+            Properties.Settings.Default.FilePath15 = FilePath15.Text;
+            Properties.Settings.Default.FilePath16 = FilePath16.Text;
+            Properties.Settings.Default.FilePath17 = FilePath17.Text;
+            Properties.Settings.Default.FilePath18 = FilePath18.Text;
+            Properties.Settings.Default.FilePath19 = FilePath19.Text;
+            Properties.Settings.Default.FilePath20 = FilePath20.Text;
             Properties.Settings.Default.lbl_Cliente1 = lbl_Cliente1.Text;
             Properties.Settings.Default.lbl_Cliente2 = lbl_Cliente2.Text;
             Properties.Settings.Default.lbl_Cliente3 = lbl_Cliente3.Text;
             Properties.Settings.Default.lbl_Cliente4 = lbl_Cliente4.Text;
+            Properties.Settings.Default.lbl_Cliente5 = lbl_Cliente5.Text;
+            Properties.Settings.Default.lbl_Cliente6 = lbl_Cliente6.Text;
+            Properties.Settings.Default.lbl_Cliente7 = lbl_Cliente7.Text;
+            Properties.Settings.Default.lbl_Cliente8 = lbl_Cliente8.Text;
+            Properties.Settings.Default.lbl_Cliente9 = lbl_Cliente9.Text;
+            Properties.Settings.Default.lbl_Cliente10 = lbl_Cliente10.Text;
+            Properties.Settings.Default.lbl_Cliente11 = lbl_Cliente11.Text;
+            Properties.Settings.Default.lbl_Cliente12 = lbl_Cliente12.Text;
+            Properties.Settings.Default.lbl_Cliente13 = lbl_Cliente13.Text;
+            Properties.Settings.Default.lbl_Cliente14 = lbl_Cliente14.Text;
+            Properties.Settings.Default.lbl_Cliente15 = lbl_Cliente15.Text;
+            Properties.Settings.Default.lbl_Cliente16 = lbl_Cliente16.Text;
+            Properties.Settings.Default.lbl_Cliente17 = lbl_Cliente17.Text;
+            Properties.Settings.Default.lbl_Cliente18 = lbl_Cliente18.Text;
+            Properties.Settings.Default.lbl_Cliente19 = lbl_Cliente19.Text;
+            Properties.Settings.Default.lbl_Cliente20 = lbl_Cliente20.Text;
             Properties.Settings.Default.Save();            
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -56,6 +120,38 @@ namespace VerificaVersaoDlls
             lbl_DataMod3.Text = "";
             lbl_Versao4.Text = "";
             lbl_DataMod4.Text = "";
+            lbl_Versao5.Text = "";
+            lbl_DataMod5.Text = "";
+            lbl_Versao6.Text = "";
+            lbl_DataMod6.Text = "";
+            lbl_Versao7.Text = "";
+            lbl_DataMod7.Text = "";
+            lbl_Versao8.Text = "";
+            lbl_DataMod8.Text = "";
+            lbl_Versao9.Text = "";
+            lbl_DataMod9.Text = "";
+            lbl_Versao10.Text = "";
+            lbl_DataMod10.Text = "";
+            lbl_Versao11.Text = "";
+            lbl_DataMod11.Text = "";
+            lbl_Versao12.Text = "";
+            lbl_DataMod12.Text = "";
+            lbl_Versao13.Text = "";
+            lbl_DataMod13.Text = "";
+            lbl_Versao14.Text = "";
+            lbl_DataMod14.Text = "";
+            lbl_Versao15.Text = "";
+            lbl_DataMod15.Text = "";
+            lbl_Versao16.Text = "";
+            lbl_DataMod16.Text = "";
+            lbl_Versao17.Text = "";
+            lbl_DataMod17.Text = "";
+            lbl_Versao18.Text = "";
+            lbl_DataMod18.Text = "";
+            lbl_Versao19.Text = "";
+            lbl_DataMod19.Text = "";
+            lbl_Versao20.Text = "";
+            lbl_DataMod20.Text = "";
             ActiveControl = btn_CheckVersion;     
         }
 
@@ -64,7 +160,7 @@ namespace VerificaVersaoDlls
             FolderBrowserDialog SelectFolder = new FolderBrowserDialog();
             SelectFolder.ShowDialog();
             string NewPath = SelectFolder.SelectedPath;
-            string NewPathPlusFile = NewPath + @"\bin\HBConselhos.dll";
+            string NewPathPlusFile = NewPath + @"\bin\HBSIS.Conselho.BLL.Financeiro.dll";
             if (String.IsNullOrEmpty(NewPath) == false)
             {
                 return NewPathPlusFile;
@@ -91,7 +187,6 @@ namespace VerificaVersaoDlls
             }
             catch (ArgumentException ae)
             {
-                MessageBox.Show("Não foi especificado o caminho do arquivo para o " + clientName);
                 return String.Empty;
             }
             
@@ -132,6 +227,54 @@ namespace VerificaVersaoDlls
 
             lbl_Versao4.Text = GetFileVersion(FilePath4.Text, lbl_Cliente4.Text);
             lbl_DataMod4.Text = GetFileModDate(FilePath4.Text, lbl_Cliente4.Text);
+
+            lbl_Versao5.Text = GetFileVersion(FilePath5.Text, lbl_Cliente5.Text);
+            lbl_DataMod5.Text = GetFileModDate(FilePath5.Text, lbl_Cliente5.Text);
+
+            lbl_Versao6.Text = GetFileVersion(FilePath6.Text, lbl_Cliente6.Text);
+            lbl_DataMod6.Text = GetFileModDate(FilePath6.Text, lbl_Cliente6.Text);
+
+            lbl_Versao7.Text = GetFileVersion(FilePath7.Text, lbl_Cliente7.Text);
+            lbl_DataMod7.Text = GetFileModDate(FilePath7.Text, lbl_Cliente7.Text);
+
+            lbl_Versao8.Text = GetFileVersion(FilePath8.Text, lbl_Cliente8.Text);
+            lbl_DataMod8.Text = GetFileModDate(FilePath8.Text, lbl_Cliente8.Text);
+
+            lbl_Versao9.Text = GetFileVersion(FilePath9.Text, lbl_Cliente10.Text);
+            lbl_DataMod9.Text = GetFileModDate(FilePath9.Text, lbl_Cliente10.Text);
+
+            lbl_Versao11.Text = GetFileVersion(FilePath11.Text, lbl_Cliente11.Text);
+            lbl_DataMod11.Text = GetFileModDate(FilePath11.Text, lbl_Cliente11.Text);
+
+            lbl_Versao12.Text = GetFileVersion(FilePath12.Text, lbl_Cliente12.Text);
+            lbl_DataMod12.Text = GetFileModDate(FilePath12.Text, lbl_Cliente12.Text);
+
+            lbl_Versao13.Text = GetFileVersion(FilePath13.Text, lbl_Cliente13.Text);
+            lbl_DataMod13.Text = GetFileModDate(FilePath13.Text, lbl_Cliente13.Text);
+
+            lbl_Versao14.Text = GetFileVersion(FilePath14.Text, lbl_Cliente14.Text);
+            lbl_DataMod14.Text = GetFileModDate(FilePath14.Text, lbl_Cliente14.Text);
+
+            lbl_Versao15.Text = GetFileVersion(FilePath15.Text, lbl_Cliente15.Text);
+            lbl_DataMod15.Text = GetFileModDate(FilePath15.Text, lbl_Cliente15.Text);
+
+            lbl_Versao16.Text = GetFileVersion(FilePath16.Text, lbl_Cliente16.Text);
+            lbl_DataMod16.Text = GetFileModDate(FilePath16.Text, lbl_Cliente16.Text);
+
+            lbl_Versao17.Text = GetFileVersion(FilePath17.Text, lbl_Cliente17.Text);
+            lbl_DataMod17.Text = GetFileModDate(FilePath17.Text, lbl_Cliente17.Text);
+
+            lbl_Versao17.Text = GetFileVersion(FilePath17.Text, lbl_Cliente17.Text);
+            lbl_DataMod17.Text = GetFileModDate(FilePath17.Text, lbl_Cliente17.Text);
+
+            lbl_Versao18.Text = GetFileVersion(FilePath18.Text, lbl_Cliente18.Text);
+            lbl_DataMod18.Text = GetFileModDate(FilePath18.Text, lbl_Cliente18.Text);
+
+            lbl_Versao19.Text = GetFileVersion(FilePath19.Text, lbl_Cliente19.Text);
+            lbl_DataMod19.Text = GetFileModDate(FilePath19.Text, lbl_Cliente19.Text);
+
+            lbl_Versao20.Text = GetFileVersion(FilePath20.Text, lbl_Cliente20.Text);
+            lbl_DataMod20.Text = GetFileModDate(FilePath20.Text, lbl_Cliente20.Text);
         }
 
         
@@ -282,6 +425,86 @@ namespace VerificaVersaoDlls
         {
             string CurrentPath = FilePath4.Text;
             FilePath4.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder5_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath5.Text;
+            FilePath5.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder6_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath6.Text;
+            FilePath6.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder7_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath7.Text;
+            FilePath7.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder8_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath8.Text;
+            FilePath8.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder9_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath9.Text;
+            FilePath9.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder10_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath10.Text;
+            FilePath10.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder11_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath11.Text;
+            FilePath11.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder12_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath12.Text;
+            FilePath12.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder13_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath13.Text;
+            FilePath13.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder14_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath14.Text;
+            FilePath14.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder15_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath15.Text;
+            FilePath15.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder16_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath16.Text;
+            FilePath16.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder17_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath17.Text;
+            FilePath17.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder18_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath18.Text;
+            FilePath18.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder19_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath19.Text;
+            FilePath19.Text = FolderDialog(CurrentPath);
+        }
+        private void btn_Folder20_Click(object sender, EventArgs e)
+        {
+            string CurrentPath = FilePath20.Text;
+            FilePath20.Text = FolderDialog(CurrentPath);
         }
     }
 }

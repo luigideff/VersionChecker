@@ -26,5 +26,101 @@
     <Setting Name="lbl_Cliente4" Type="System.String" Scope="User">
       <Value Profile="(Default)">Cliente 4</Value>
     </Setting>
+    <Setting Name="FilePath5" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath6" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath7" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath8" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath9" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath10" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath11" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath12" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath13" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath14" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath15" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath16" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath17" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath18" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath19" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePath20" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="lbl_Cliente5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 5</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 6</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 7</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 8</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 9</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 10</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 11</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 12</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 13</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 14</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 15</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 16</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 17</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 18</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 19</Value>
+    </Setting>
+    <Setting Name="lbl_Cliente20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cliente 20</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

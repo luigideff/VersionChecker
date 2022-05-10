@@ -504,7 +504,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder5.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder5.TabIndex = 3;
             this.btn_Folder5.UseVisualStyleBackColor = true;
-            this.btn_Folder5.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder5.Click += new System.EventHandler(this.btn_Folder5_Click);
             // 
             // lbl_DataMod5
             // 
@@ -704,7 +704,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder6.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder6.TabIndex = 3;
             this.btn_Folder6.UseVisualStyleBackColor = true;
-            this.btn_Folder6.Click += new System.EventHandler(this.btn_Folder1_Click);
+            this.btn_Folder6.Click += new System.EventHandler(this.btn_Folder6_Click);
             // 
             // FilePath9
             // 
@@ -729,7 +729,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder7.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder7.TabIndex = 3;
             this.btn_Folder7.UseVisualStyleBackColor = true;
-            this.btn_Folder7.Click += new System.EventHandler(this.btn_Folder2_Click);
+            this.btn_Folder7.Click += new System.EventHandler(this.btn_Folder7_Click);
             // 
             // btn_Folder8
             // 
@@ -740,7 +740,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder8.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder8.TabIndex = 3;
             this.btn_Folder8.UseVisualStyleBackColor = true;
-            this.btn_Folder8.Click += new System.EventHandler(this.btn_Folder3_Click);
+            this.btn_Folder8.Click += new System.EventHandler(this.btn_Folder8_Click);
             // 
             // btn_Folder9
             // 
@@ -751,7 +751,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder9.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder9.TabIndex = 3;
             this.btn_Folder9.UseVisualStyleBackColor = true;
-            this.btn_Folder9.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder9.Click += new System.EventHandler(this.btn_Folder9_Click);
             // 
             // btn_Folder10
             // 
@@ -762,7 +762,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder10.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder10.TabIndex = 3;
             this.btn_Folder10.UseVisualStyleBackColor = true;
-            this.btn_Folder10.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder10.Click += new System.EventHandler(this.btn_Folder10_Click);
             // 
             // lbl_DataMod6
             // 
@@ -1198,7 +1198,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder11.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder11.TabIndex = 3;
             this.btn_Folder11.UseVisualStyleBackColor = true;
-            this.btn_Folder11.Click += new System.EventHandler(this.btn_Folder1_Click);
+            this.btn_Folder11.Click += new System.EventHandler(this.btn_Folder11_Click);
             // 
             // FilePath18
             // 
@@ -1223,7 +1223,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder16.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder16.TabIndex = 3;
             this.btn_Folder16.UseVisualStyleBackColor = true;
-            this.btn_Folder16.Click += new System.EventHandler(this.btn_Folder1_Click);
+            this.btn_Folder16.Click += new System.EventHandler(this.btn_Folder16_Click);
             // 
             // FilePath19
             // 
@@ -1255,7 +1255,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder12.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder12.TabIndex = 3;
             this.btn_Folder12.UseVisualStyleBackColor = true;
-            this.btn_Folder12.Click += new System.EventHandler(this.btn_Folder2_Click);
+            this.btn_Folder12.Click += new System.EventHandler(this.btn_Folder12_Click);
             // 
             // btn_Folder17
             // 
@@ -1266,7 +1266,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder17.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder17.TabIndex = 3;
             this.btn_Folder17.UseVisualStyleBackColor = true;
-            this.btn_Folder17.Click += new System.EventHandler(this.btn_Folder2_Click);
+            this.btn_Folder17.Click += new System.EventHandler(this.btn_Folder17_Click);
             // 
             // btn_Folder13
             // 
@@ -1277,7 +1277,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder13.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder13.TabIndex = 3;
             this.btn_Folder13.UseVisualStyleBackColor = true;
-            this.btn_Folder13.Click += new System.EventHandler(this.btn_Folder3_Click);
+            this.btn_Folder13.Click += new System.EventHandler(this.btn_Folder13_Click);
             // 
             // btn_Folder18
             // 
@@ -1288,7 +1288,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder18.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder18.TabIndex = 3;
             this.btn_Folder18.UseVisualStyleBackColor = true;
-            this.btn_Folder18.Click += new System.EventHandler(this.btn_Folder3_Click);
+            this.btn_Folder18.Click += new System.EventHandler(this.btn_Folder18_Click);
             // 
             // btn_Folder14
             // 
@@ -1299,7 +1299,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder14.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder14.TabIndex = 3;
             this.btn_Folder14.UseVisualStyleBackColor = true;
-            this.btn_Folder14.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder14.Click += new System.EventHandler(this.btn_Folder14_Click);
             // 
             // btn_Folder19
             // 
@@ -1310,7 +1310,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder19.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder19.TabIndex = 3;
             this.btn_Folder19.UseVisualStyleBackColor = true;
-            this.btn_Folder19.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder19.Click += new System.EventHandler(this.btn_Folder19_Click);
             // 
             // btn_Folder15
             // 
@@ -1321,7 +1321,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder15.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder15.TabIndex = 3;
             this.btn_Folder15.UseVisualStyleBackColor = true;
-            this.btn_Folder15.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder15.Click += new System.EventHandler(this.btn_Folder15_Click);
             // 
             // btn_Folder20
             // 
@@ -1332,7 +1332,7 @@ namespace VerificaVersaoDlls
             this.btn_Folder20.Size = new System.Drawing.Size(36, 36);
             this.btn_Folder20.TabIndex = 3;
             this.btn_Folder20.UseVisualStyleBackColor = true;
-            this.btn_Folder20.Click += new System.EventHandler(this.btn_Folder4_Click);
+            this.btn_Folder20.Click += new System.EventHandler(this.btn_Folder20_Click);
             // 
             // lbl_DataMod11
             // 
